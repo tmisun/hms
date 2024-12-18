@@ -11,7 +11,7 @@ const SectionCareer = () => {
       time: "2021.01-2023.06",
       location: "북경",
       text: "Naver Vibe, Line Music 등 음원서비스의 프론트엔드 개발",
-      image: "/sun/logo_naver.png",
+      image: "logo_naver.png",
       url: "",
     },{
       index: 2,
@@ -21,7 +21,7 @@ const SectionCareer = () => {
       time: "2016.11-2018.12 ",
       location: "북경",
       text: "IT 아카데미의 홈페이지, 메모 서비스의 디자인",
-      image: "/sun/logo_you.png",
+      image: "logo_you.png",
       url: "",
     },{
       index: 3,
@@ -30,7 +30,7 @@ const SectionCareer = () => {
       time: "2013.07-2016.09",
       location: "북경",
       text: "회의 관리 서비스의 프론트엔드와 백엔드 개발, 기기 모니터링 서비스의 디자인 지원",
-      image: "/sun/logo_polycom.png",
+      image: "logo_polycom.png",
       url: "",
     },{
       index: 1,
@@ -39,7 +39,7 @@ const SectionCareer = () => {
       time: "2011.01-2013.05",
       location: "북경",
       text: "네이버 다양한 서비스의 웹퍼블리싱, 웹접근성 개선",
-      image: "/sun/logo_nhn.png",
+      image: "logo_nhn.png",
       url: "",
     },
     
