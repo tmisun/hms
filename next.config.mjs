@@ -1,11 +1,8 @@
 /** @type {import('next').NextConfig} */
 
-const prefix =
-  process.env.NODE_ENV === 'production' ? 'https://tmisun.github.io/' : ''
-
 const nextConfig = {
     output: "export",
-    assetPrefix: prefix,
+    basePath : process.env.NODE_ENV === 'production' ? "/sun" : "",
 };
 
 export default nextConfig;
