@@ -2,7 +2,7 @@
 
 const nextConfig = {
     output: "export",
-    basePath : process.env.NODE_ENV === 'production' ? "/sun" : "",
+    basePath : "/sun" ,
 };
 
 export default nextConfig;
