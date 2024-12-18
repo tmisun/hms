@@ -1,0 +1,39 @@
+.section_project{
+    position: relative;
+    background: oklch(17.76% 0 0);
+    .title{
+        grid-column: 2 / span 11;
+        // animation: marqueeAnimation 50s linear 1s infinite normal none running ;
+        font-size: 20vw;
+        font-weight:900;
+        font-style:italic;
+        color:transparent;
+        -webkit-text-stroke: 1px #fff;
+        opacity:0.7;
+        white-space: nowrap;
+        line-height: 100%;
+    }
+
+}
+.project_fix{
+    display: none;
+
+    --header-height: 64px;
+
+    position: fixed;
+    top: var(--header-height);
+    left: 50%;
+    margin-left: calc(0px - 30vh + var(--header-height)* 0.3 + 21px);
+    width: calc(60vh - var(--header-height)* 0.6 - 42px);
+    height: calc(100vh - var(--header-height) - 70px);
+    border-radius: 32px;
+
+    outline: 9999px solid #fff;
+    z-index: 10000;
+}
+
+// @keyframes marqueeAnimation {
+//     0% {transform: translateX(100%);}
+// 	100% {transform: translateX(-100%);}
+// }
+

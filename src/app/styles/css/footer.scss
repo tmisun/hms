@@ -1,0 +1,8 @@
+.footer {
+    padding: var(--spaceXL) var(--spaceL);
+    font-family: var(--font-gotham);
+    font-size: var(--fontSizeBodyXS);
+    font-weight: 400;
+    text-align: center;
+    color: color-mix(in lab, #000 70%, transparent);
+}

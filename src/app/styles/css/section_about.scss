@@ -1,0 +1,19 @@
+.section_about{
+    padding: 60px 0 80px;
+    background: #fff
+}
+
+.item_about{
+    grid-column: 2 / span 10;
+    line-height: 1.5;
+
+    p{
+        margin-bottom: 1rem
+    }
+}
+
+// .item_photo{
+//     grid-column: 9 / span 3;
+//     padding-left: var(--spaceL);
+// }
+
