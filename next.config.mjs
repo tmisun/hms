@@ -4,9 +4,9 @@ const nextConfig = {
     output: "export",
     images: {
         loader: 'imgix',
-        path: 'https://tmisun.github.io/sun/',
+        path: 'https://tmisun.github.io/',
     },
-    assetPrefix: 'https://tmisun.github.io/sun/',
+    assetPrefix: '/sun',
 };
 
 export default nextConfig;
