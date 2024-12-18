@@ -9,7 +9,7 @@ const Header = () => {
         <span className="blind">YEEE</span>
         <Image
             className=""
-            src="test.svg"
+            src="logo.svg"
             alt="Vercel logomark"
             width={48}
             height={48}
