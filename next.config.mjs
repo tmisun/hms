@@ -2,7 +2,10 @@
 
 const nextConfig = {
     output: "export",
-    basePath : "/sun" ,
+    images: {
+        loader: 'imgix',
+        path: 'https://tmisun.github.io/sun/',
+    },
 };
 
 export default nextConfig;
